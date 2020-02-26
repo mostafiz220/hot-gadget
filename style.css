@@ -16,6 +16,10 @@
         padding: 9px 25px;
         cursor: pointer;
     }
+    .buy-now-button:hover{
+        background: transparent linear-gradient(142deg, rgb(114, 33, 64) 0%, rgb(3, 63, 104) 100%);
+    }
+        
     .see-all{
         text-align: right;
         color:orange;
@@ -28,14 +32,11 @@
     .card{
         margin: 10px;
         border: none;
-        box-shadow: 50px 5px 5px lightgray;
+        box-shadow: 5px 5px 5px lightgray;
         text-align: center;
         border-radius: 10px;
     }
-    .card:hover{
-        transform: translateY(-10px);
-        box-shadow: 10px 10px 30px lightgray;
-    }
+
     .card-footer{
         background-color: white;
         border-top: none;
@@ -80,13 +81,19 @@
     .img-fit img {
         width: 100%;
     }
+    .pop:hover{
+        transform: translateY(-10px);
+        box-shadow: 10px 10px 30px lightgray;
+    }
     footer{
         text-align: center;
+        margin-bottom: 0em;
     }
     .car-bg{
         padding-left: ocm;
         margin-left: 0em;
         width: 10%;
+        height: 20%;
         position: absolute; 
     }
     .carousel-indicators li {
@@ -105,4 +112,8 @@
     }
     .carousel-control-next-icon{
         background-color: rgb(224, 236, 240);
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
     }
