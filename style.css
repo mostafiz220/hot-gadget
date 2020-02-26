@@ -1,0 +1,108 @@
+.navbar-brand img{
+    height: 60px;
+    margin-left: 15px;
+    }
+    .nab{
+        margin-top: 20px;
+    }
+    .container{
+        margin-bottom: 50px;
+    }
+    .buy-now-button{
+        background-color: black;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 9px 25px;
+        cursor: pointer;
+    }
+    .see-all{
+        text-align: right;
+        color:orange;
+        cursor: pointer;
+    }
+    
+    .card-body{
+        text-align: center;
+    }
+    .card{
+        margin: 10px;
+        border: none;
+        box-shadow: 50px 5px 5px lightgray;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .card:hover{
+        transform: translateY(-10px);
+        box-shadow: 10px 10px 30px lightgray;
+    }
+    .card-footer{
+        background-color: white;
+        border-top: none;
+    }
+    .cat{
+        padding-top: 50px;
+    }
+    .card-deck{
+        margin-top: 40px;
+    }
+    .line{
+        margin-left: 44.5%;
+        padding-bottom: 50px;
+    }
+    .sm-container{
+        width: 250px;
+        height: 250px;
+        border: none;
+        margin-right: 1200px;
+        box-shadow: 10px 10px 20px rgb(192, 187, 187);
+        padding-top: 50px;
+        border-radius: 0 25px 0 35px ;
+    }
+    .sm-container:hover{
+        transform: translateY(-10px);
+        box-shadow: 10px 10px 30px lightgray;
+    }
+    .sm-container-1{
+        width: 230px;
+        height: 250px;
+        box-shadow: 10px 10px 20px rgb(192, 187, 187);
+        border: none;
+        margin-left: 150px;
+        padding-top: 50px;
+        margin-bottom: 45px;
+        border-radius: 25px 0 35px 0;
+    }
+    .sm-container-1:hover{
+        transform: translateY(-10px);
+        box-shadow: 10px 10px 30px lightgray;
+    }
+    .img-fit img {
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+    }
+    .car-bg{
+        padding-left: ocm;
+        margin-left: 0em;
+        width: 10%;
+        position: absolute; 
+    }
+    .carousel-indicators li {
+        height: 8px;
+        width: 10px;
+        border-radius: 5px;
+        background-color: darkgray;
+        border: none;
+    }
+    .carousel-indicators li.active{
+            width: 30px;
+            height: 8px;
+            border: none;
+            border-radius: 5px;
+            background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%);
+    }
+    .carousel-control-next-icon{
+        background-color: rgb(224, 236, 240);
+    }
